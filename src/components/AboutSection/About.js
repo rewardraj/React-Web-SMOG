@@ -25,7 +25,6 @@ const About = () => {
       <AboutContainer>
         <Image src={image} type='jpg' />
         <AboutContent>
-        <AboutH2>About Me</AboutH2>
         <AboutH3>DO SOME AWESOME STUFF WITH ME</AboutH3>
         <AboutP>Sunmbola Matthew Oladimeji is a young scientist with experience as a Laboratory scientist and clinical and molecular cytogeneticist at Kamashki Memorial hospital MMM, India. His perpetual research to stay informed in his field keeps him atop his game.
 

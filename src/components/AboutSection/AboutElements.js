@@ -6,6 +6,7 @@ export const AboutContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #181818;
     gap: 2em;
     justify-content: space-around;
     padding: 80px calc((100% - (450px * 3)) / 2);
@@ -84,7 +85,7 @@ export const AboutH2 = styled.h2`
 export const AboutH3 = styled.h3`
     font-size: 28px;
     text-align: left;
-    color: #000;
+    color: #fffffe;
     padding: 5px;
 
     @media screen and (max-width: 992px) {
@@ -100,6 +101,9 @@ export const AboutH3 = styled.h3`
 `
 
 export const AboutP = styled.p`
+
+    color : #ddd6d6;
+
     @media screen and (max-width: 992px) {
         font-size: 16px;
         
@@ -136,7 +140,7 @@ export const Image = styled.img`
 
 export const Button = styled(Link)`
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#01BF71' : '#010606')};
+    background: #50c4cf;
     white-space: nowrap;
     font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
     outline: none;
