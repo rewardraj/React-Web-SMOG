@@ -6,9 +6,9 @@ import {
     TextWrapper, 
     Subtitle, 
     Heading
-} from './SecondHeroElements'
+} from './RecipeElements'
 
-const SecondHero = () => {
+const Recipe = () => {
   return (
     <>
       <SecondHeroContainer>
@@ -24,4 +24,4 @@ const SecondHero = () => {
   )
 }
 
-export default SecondHero
+export default Recipe

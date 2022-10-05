@@ -3,7 +3,7 @@ import About from '../AboutSection/About';
 import HeroSection from '../HeroSection/HeroSection';
 import InfoSection from '../InfoSection/InfoSection';
 import Navbar from '../Navbar';
-import SecondHero from '../SecondHero/SecondHero';
+import Recipe from '../RecipeSection/Recipe';
 import Sidebar from '../Sidebar/Sidebar';
 
 
@@ -22,7 +22,7 @@ const Home = () => {
     <HeroSection />
     <InfoSection />
     <About />
-    <SecondHero />
+    <Recipe />
     </>
   )
 }

@@ -20,13 +20,15 @@ export const AboutContainer = styled.div`
   
     }
 
+    
+
 `
 
 export const AboutContent = styled.div`
     display: flex;
     flex-direction: column;
     gap: 30px;
-    white-space: wrap;
+    // white-space: wrap;
     overflow: hidden;
     max-width: 65%;
     text-align: left;
@@ -43,6 +45,8 @@ export const AboutContent = styled.div`
         display: flex;
         gap: 10px;
     }
+
+   
 
 `
 
@@ -119,18 +123,16 @@ export const AboutP = styled.p`
 `
 
 export const Image = styled.img`
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    // position: relative;
-
+    width: 500px;
+    height: 400px;
+    border-radius: 25px;
 
     @media screen and (max-width: 768px){
         // flex-grow: 1;
         // flex-direction: column;
         align-self: center;
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 300px;
     }
 
     @media screen and (max-width: 480px){
