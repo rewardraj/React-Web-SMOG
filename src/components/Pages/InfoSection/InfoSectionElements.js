@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-    // @media screen and (max-width: 768px) {
-    //     padding: 100px 0;
-    // }
+    background-color: #f2f7f5;
     
 `
 
@@ -15,6 +13,7 @@ export const InfoWrapper = styled.div`
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
+    background-color: red;
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
@@ -35,7 +34,7 @@ export const Heading = styled.h1`
     font-size: 28px;
     line-height: 1.1;
     font-weight: 600;
-    color: #000;
+    color: #00473e;
 
     @media screen and (max-width: 768px) {
         font-size: 28px;
@@ -46,7 +45,7 @@ export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 25px;
     font-size: 20px;
-    color: #000;
+    color: #475d5b;
     text-align: center;
 `
 
@@ -93,7 +92,7 @@ export const GridImage = styled.img`
 `
 export const GridText = styled.p`
     font-size: 15px;
-    color: #000;
+    color: #475d5b;
     display: flex;
     gap: 5rem;
     cursor: pointer;

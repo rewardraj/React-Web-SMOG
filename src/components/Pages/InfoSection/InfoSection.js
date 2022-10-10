@@ -11,9 +11,9 @@ GridContent,
 GridText
 } from './InfoSectionElements'
 
-import Image1 from '../../images/diseases.jpg'
-import Image2 from '../../images/health-talks.jpg'
-import Image3 from '../../images/lifestyle.jpg'
+import Image1 from '../../../images/diseases.jpg'
+import Image2 from '../../../images/health-talks.jpg'
+import Image3 from '../../../images/lifestyle.jpg'
 
 
 export const homeObjectOne = {
@@ -44,7 +44,7 @@ const InfoSection = () => {
             <Heading>{homeObjectOne.headLine}</Heading>
             </TextWrapper>
         </Column>
-      </InfoContainer>
+      
       <Container>
         <GridContent>
         <GridImage src={Image1} type='jpg'></GridImage>
@@ -68,6 +68,7 @@ const InfoSection = () => {
         </GridContent>
         
       </Container>
+      </InfoContainer>
     </>
   )
 }

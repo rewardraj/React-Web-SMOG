@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import image from '../../images/me/IMG_8138.jpg'
+import image from '../../../images/me/IMG_8138.jpg'
 import { ArrowForward, ArrowRight } from '../HeroSection/HeroElements'
 import {
 Button,

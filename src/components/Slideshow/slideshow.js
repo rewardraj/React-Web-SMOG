@@ -1,28 +1,42 @@
 import React from 'react'
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
-import styled, { css } from 'styled-components';
-import { SlideWrapper, NavButton, ImageBox } from './slideElements';
+import {
+  SlideContainer,
+  SlideHeader
+} from './SlideElements.js'
+
+const Slideshow = () => {
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
 
 
-// const View = () => <Slideshow />
-
-const slideshow = () => {
   return (
-    // <SlideWrapper>
-    //     <ImageBox>
-    //         <img alt='' src={require(third)} />
-    //         <img alt='' src={require(second)} />
-    //         <img alt='' src={require(first)} />
-    //     <NavButton position="left">
-    //         <FaChevronLeft />
-    //     </NavButton>
-    //     <NavButton position="right">
-    //         <FaChevronRight />
-    //     </NavButton>
-    //     </ImageBox>
-    // </SlideWrapper>
-    <></>
+    <>
+      <SlideContainer>
+        <SlideHeader></SlideHeader>
+        <SlideshowWrapper>
+          <ImageWrapper></ImageWrapper>
+          <TextWrapper></TextWrapper>
+        </SlideshowWrapper>
+        <SlideshowWrapper>
+          <ImageWrapper></ImageWrapper>
+          <TextWrapper></TextWrapper>
+        </SlideshowWrapper>
+        <SlideshowWrapper>
+          <ImageWrapper></ImageWrapper>
+          <TextWrapper></TextWrapper>
+        </SlideshowWrapper>
+        <PrevButton
+          onclick={clickPrev}
+        >
+        </PrevButton>
+        <NextButton
+          onclick={clickNext}
+        >
+        </NextButton>
+      </SlideContainer>
+    </>
   )
 }
 
-export default slideshow
+export default Slideshow

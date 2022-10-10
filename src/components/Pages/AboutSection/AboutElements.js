@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #181818;
+    background: #00473e;
     gap: 2em;
     justify-content: space-around;
     padding: 80px calc((100% - (450px * 3)) / 2);
@@ -52,8 +52,7 @@ export const AboutContent = styled.div`
 
 export const AboutH2 = styled.h2`
     font-size: 24px;
-    background: #01bf71;
-    color: #ffff;
+    color: #fffffe;
     max-width: 25%;
     padding: 0.3rem;
     text-align: center;
@@ -106,7 +105,7 @@ export const AboutH3 = styled.h3`
 
 export const AboutP = styled.p`
 
-    color : #ddd6d6;
+    color : #f2f7f5;
 
     @media screen and (max-width: 992px) {
         font-size: 16px;
@@ -142,7 +141,7 @@ export const Image = styled.img`
 
 export const Button = styled(Link)`
     border-radius: 50px;
-    background: #50c4cf;
+    background: #faae2b;
     white-space: nowrap;
     font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
     outline: none;

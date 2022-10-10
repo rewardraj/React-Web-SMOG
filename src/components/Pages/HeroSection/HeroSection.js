@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import  { HeroContainer, HeroBg } from './HeroElements'
-import image from '../../images/me/Main.jpg'
-import { Button } from '../Button/ButtonElement'
+import image from '../../../images/me/Main.jpg'
+import { Button } from '../../Button/ButtonElement'
 import { HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight, Image } from './HeroElements'
 
 

@@ -78,7 +78,7 @@ export const CardContainer = styled.div`
 `
 
 export const CardTextWrapper = styled.div`
-
+        width: 100%;
 `
 
 

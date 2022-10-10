@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
-import About from '../AboutSection/About';
-import HeroSection from '../HeroSection/HeroSection';
-import InfoSection from '../InfoSection/InfoSection';
+import About from './AboutSection/About';
+import HeroSection from './HeroSection/HeroSection';
+import InfoSection from './InfoSection/InfoSection';
 import Navbar from '../Navbar';
-import Recipe from '../RecipeSection/Recipe';
+import Recipe from './RecipeSection/Recipe';
 import Sidebar from '../Sidebar/Sidebar';
+import Testimonial from './Testimonial/Testimonial';
 
 
 const Home = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => {
-    setIsOpen(!isOpen)
-  }
+  const toggle = () => {setIsOpen(!isOpen)}
 
   return (
     <>
@@ -23,6 +22,7 @@ const Home = () => {
     <InfoSection />
     <About />
     <Recipe />
+    <Testimonial />
     </>
   )
 }
