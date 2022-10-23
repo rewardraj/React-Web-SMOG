@@ -6,7 +6,7 @@ export const AboutContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #00473e;
+    background: #1d242c;
     gap: 2em;
     justify-content: space-around;
     padding: 80px calc((100% - (450px * 3)) / 2);
