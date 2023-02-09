@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const TestimonialContainer = styled.div`
     background-color: #fafafa;
-    padding: 0.8em;
-    margin-top: 3em;
+    padding: 3em;
+    
 
     h3 {
         text-align: center;

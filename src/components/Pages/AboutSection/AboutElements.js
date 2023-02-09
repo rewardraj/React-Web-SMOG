@@ -108,7 +108,7 @@ export const AboutP = styled.p`
     color : #f2f7f5;
 
     @media screen and (max-width: 992px) {
-        font-size: 16px;
+        font-size: 20px;
         
     }
     @media screen and (max-width: 768px){
@@ -122,9 +122,9 @@ export const AboutP = styled.p`
 `
 
 export const Image = styled.img`
-    width: 500px;
-    height: 400px;
-    border-radius: 25px;
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
 
     @media screen and (max-width: 768px){
         // flex-grow: 1;

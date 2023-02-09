@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-    background-color: #f2f7f5;
+    background-color: #e4e7e6;
     
 `
 
@@ -13,7 +13,7 @@ export const InfoWrapper = styled.div`
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
-    background-color: red;
+
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
@@ -30,29 +30,28 @@ export const Column = styled.div`
 `
 
 export const Heading = styled.h1`
-    margin-top: 15px;
-    font-size: 28px;
-    line-height: 1.1;
-    font-weight: 600;
-    color: #00473e;
+    margin: 15px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #000;
 
     @media screen and (max-width: 768px) {
         font-size: 28px;
     }
 `
 
-export const Subtitle = styled.p`
-    max-width: 440px;
-    margin-bottom: 25px;
-    font-size: 20px;
-    color: #475d5b;
-    text-align: center;
-`
+// export const Subtitle = styled.p`
+//     max-width: 440px;
+//     margin-bottom: 25px;
+//     font-size: 20px;
+//     color: #475d5b;
+//     text-align: center;
+// `
 
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 60px;
-    padding-bottom: 40px;
+ 
 `
 
 export const Img = styled.img`
@@ -63,10 +62,11 @@ export const Img = styled.img`
 export const Container = styled.div`
     display:flex;
     width: 100%;
-    gap: 3rem;
-    padding: 40px calc((100% - (300px * 3)) / 2);
+    gap: 8rem;
+    padding: 40px 0 10%;
     flex-direction:row;
     flex-wrap: wrap;
+   
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -74,16 +74,16 @@ export const Container = styled.div`
 export const GridContent = styled.div`
     display: flex;
     flex-direction: column;
-    gap: .75rem;
-    flex: 0 0 215px;
-    margin: 1em 10px;
+    // gap: .75rem;
+    flex: 0 0 200px;
+    margin: 0 15px;
     justify-content: center;
     align-items: center;
 `
 
 export const GridImage = styled.img`
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     border-radius: 50%;
 
     &:hover {
@@ -91,11 +91,14 @@ export const GridImage = styled.img`
     }
 `
 export const GridText = styled.p`
-    font-size: 15px;
-    color: #475d5b;
-    display: flex;
-    gap: 5rem;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
     cursor: pointer;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        color: #faae2b;
+    }
 `

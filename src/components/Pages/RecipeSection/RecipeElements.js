@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SecondHeroContainer = styled.div`
-    
+    background-color: #e4e7e6;
+    padding-bottom: 100px;
 `
 
 export const Column = styled.div`

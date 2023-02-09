@@ -3,7 +3,7 @@ import {
 InfoContainer,
 Column,
 TextWrapper,
-Subtitle,
+
 Heading,
 Container,
 GridImage,
@@ -11,9 +11,11 @@ GridContent,
 GridText
 } from './InfoSectionElements'
 
-import Image1 from '../../../images/diseases.jpg'
-import Image2 from '../../../images/health-talks.jpg'
-import Image3 from '../../../images/lifestyle.jpg'
+import Image1 from '../../../images/medicine.svg'
+import Image2 from '../../../images/health-talks.svg'
+import Image3 from '../../../images/diet.svg'
+import Image4 from '../../../images/lifestyle.svg'
+// import Image5 from '../../../images/laboratory.svg'
 
 
 export const homeObjectOne = {
@@ -40,7 +42,6 @@ const InfoSection = () => {
       <InfoContainer>
         <Column>
             <TextWrapper>
-            <Subtitle>{homeObjectOne.description}</Subtitle>
             <Heading>{homeObjectOne.headLine}</Heading>
             </TextWrapper>
         </Column>
@@ -59,13 +60,13 @@ const InfoSection = () => {
         <GridText>Diet</GridText>
         </GridContent>
         <GridContent>
-        <GridImage src={Image1} type='jpg'></GridImage>
-        <GridText>Hello</GridText>
+        <GridImage src={Image4} type='jpg'></GridImage>
+        <GridText>Lifestyle</GridText>
         </GridContent>
-        <GridContent>
-        <GridImage src={Image1} type='jpg'></GridImage>
-        <GridText>Hello</GridText>
-        </GridContent>
+        {/* <GridContent>
+        <GridImage src={Image5} type='jpg'></GridImage>
+        <GridText>Lab Analysis</GridText>
+        </GridContent> */}
         
       </Container>
       </InfoContainer>
